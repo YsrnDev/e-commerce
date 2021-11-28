@@ -131,19 +131,19 @@
         <div class="container text-center">
             <h3>Category Choice</h3>
             <div class="row justify-content-around pt-4" id="category">
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt style="width: 16rem;">
                     <img src="img/category/pandemic setup.png" class="card-img-top" alt="category1">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Pandemic Setup</a>
                     </div>
                 </div>
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt style="width: 16rem;">
                     <img src="img/category/special.png" class="card-img-top" alt="category2">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Special SMAN 10 BKS</a>
                     </div>
                 </div>
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt style="width: 16rem;">
                     <img src="img/category/student craft.png" class="card-img-top" alt="category3">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Student Craft</a>
@@ -151,19 +151,20 @@
                 </div>
             </div>
             <div class="row justify-content-around pt-5">
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt style="width: 16rem;">
                     <img src="img/category/premium app.png" class="card-img-top" alt="category4">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Premium App</a>
                     </div>
                 </div>
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt style="width: 16rem;">
                     <img src="img/category/canteen.png" class="card-img-top" alt="category5">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Canteen</a>
                     </div>
                 </div>
-                <div class="card shadow pt-2 mb-2" style="width: 16rem;">
+                <div class="card shadow pt-2 mb-2 animasi3d" data-tilt data-tilt-glare data-tilt-max-glare="0.8" style="
+                    width: 16rem;">
                     <img src="img/category/organization danusan.png" class="card-img-top" alt="category6">
                     <div class="card-body">
                         <a href="#" class="btn btn-primary">Organization Danusan</a>
@@ -190,6 +191,13 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".animasi3d"), {
+            max: 25,
+            speed: 400
+        });
     </script>
 </body>
 
