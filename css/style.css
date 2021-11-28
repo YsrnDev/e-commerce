@@ -1,0 +1,12 @@
+.nav-link-menu:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #b3dbfb;
+    width: 100%;
+    margin: auto;
+    margin-bottom: -8px;
+}
+
+footer a {
+    text-decoration: none;
+}
